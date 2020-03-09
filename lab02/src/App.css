@@ -1,98 +1,60 @@
-body {
-    font-family: 'Heebo', "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-    background: rgb(255, 255, 255);
-    margin: 0;
-    line-height: 1.5em;
-}
 
-h1 {
-    font-size: 2em;
-}
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
-h1, h2 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
 
 * {
-    box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  
 }
 
-header, main {
-    padding: 10px;
+ul li {
+  list-style-type: none;
+}
+
+img {
+  width: 350px;
+  height: 350px;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: white;
-    border-bottom: 1px solid orange;
+  text-align: center;
+  background-color: #011126;
+  margin-bottom: 50px;
+}
+
+.choices {
+  text-transform: capitalize;
+  margin: 20px;
+  
 }
 
 h1 {
-    margin: 0 20px;
-    flex-grow: 1;
+  font-size: 44px;
+  color: white;
+  font-family: Lacquer;
+} 
+
+h3 {
+  font-size: 42px;
+  color: white;
+  font-family: sans-serif;
 }
 
-.options {
-    padding: 10px 0;
+p {
+  font-size: 22px;
 }
 
-section {
-    margin: 20px auto;
-    width: 90%;
-    min-width: 650px;
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-
-cups {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-cups li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    height: 200px;
-    width: 200px;
-    min-width: 200px;
-    border: 1px solid #aaa;
-    background-color: white;
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    padding: 5px;
-}
-
-cups li h2 {
-    font-size: 1.5em;
-}
-
-cups li .cup-theme {
-    font-size: .8em;
-    color: #555;
-}
-
-cups li .color {
-    font-size: .8em;
-}
-
-.image-container {
-    height: 50%;
-}
-
-.image-container img {
-    height: 100%;
-    object-fit: contain;
-}
-
-.cup-theme-filter {
-    height: 48px;
-    width: 150px;
-    font-size: 1.2em;
+.container {
+  border: .5px solid black;
+  width: 750px;
+  height: 500px;
+  display: inline-block;
+  background-color: #688EA6;
 }
